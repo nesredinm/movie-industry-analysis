@@ -1,31 +1,32 @@
-Movie Industry Analysis
+# Movie Industry Analysis
 
-Q: What is this project about?
-A: It explores factors that affect a movie’s revenue, including budget, audience engagement, production company, and release year.
+## Overview
+This project explores factors that influence a movie’s revenue, such as budget, audience engagement, production company, and release year. The goal is to understand which variables matter most and how they relate to revenue.
 
+## Hypotheses
+- Movies with higher budgets tend to generate higher revenue.
+- Movies with higher audience engagement (vote count) tend to earn more.
+- Production company influences revenue outcomes.
+- Release year affects revenue due to overall industry growth.
 
-Q: What were the main hypotheses?
-A:
-Higher budgets lead to higher revenue.
-Movies with more audience votes earn more.
-Top production companies produce higher-grossing movies.
-Newer movies generally earn more due to industry growth.
+## Data
+The dataset was sourced from Kaggle Movie Dataset.
+Some values for budget, revenue, rating, company, and runtime are missing, mainly because this information is not always publicly available.
 
+## Methodology
+- Exploratory Data Analysis (EDA)
+- Correlation analysis for numeric features
+- Log transformation for highly skewed financial variables
+- Categorical analysis for production companies
 
-Q: What data was used?
-A: The dataset comes from Kaggle Movie Dataset. Some data is missing for budget, revenue, rating, or company because it’s not always publicly available.
+## Key Findings
+- Budget is the strongest factor associated with revenue.
+- Audience engagement (vote count) is the second strongest factor.
+- Production company provides additional context but should be considered alongside budget.
+- Release year shows a general upward trend in revenue.
 
+## Conclusion
+Budget and audience engagement are the main drivers of movie revenue, while company and year provide supporting context.
 
-Q: What are the key findings?
-A:
-Budget is the strongest driver of revenue.
-Audience engagement (vote count) also matters.
-Production company and release year provide extra context.
-
-
-Q: What’s the takeaway?
-A: Budget and audience engagement are the main factors that drive revenue, while company and year give additional context.
-
-
-Q: What technologies were used?
-A: Python, Pandas, NumPy, Matplotlib, Seaborn
+## Tools & Technologies
+Python, Pandas, NumPy, Matplotlib, Seaborn
